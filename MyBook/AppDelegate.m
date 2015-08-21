@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <BmobSDK/Bmob.h>
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,69 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Bmob registerWithAppKey:@"f123c5b42b0d20ba6e5856dfc5db8343"];
+//添加数据到bmob中
+    //往GameScore表添加一条playerName为小明，分数为78的数据
+//    BmobObject *gameScore = [BmobObject objectWithClassName:@"GameScore"];
+//    [gameScore setObject:@"小明" forKey:@"playerName"];
+//    [gameScore setObject:@78 forKey:@"score"];
+//    [gameScore setObject:[NSNumber numberWithBool:YES] forKey:@"cheatMode"];
+//    [gameScore saveInBackgroundWithResultBlock:^(BOOL isSuccessful, NSError *error) {
+//        //进行操作
+//    }];
+    
+//获取一行数据
+    //查找GameScore表
+//    BmobQuery   *bquery = [BmobQuery queryWithClassName:@"GameScore"];
+//    //查找GameScore表里面id为0c6db13c的数据
+//    [bquery getObjectInBackgroundWithId:@"0c6db13c" block:^(BmobObject *object,NSError *error){
+//        if (error){
+//            //进行错误处理
+//        }else{
+//            //表里有id为0c6db13c的数据
+//            if (object) {
+//                //得到playerName和cheatMode
+//                NSString *playerName = [object objectForKey:@"playerName"];
+//                BOOL cheatMode = [[object objectForKey:@"cheatMode"] boolValue];
+//                NSLog(@"%@----%i",playerName,cheatMode);
+//            }
+//        }
+//    }];
+//    修改一行数据
+    //查找GameScore表
+//    BmobQuery   *bquery = [BmobQuery queryWithClassName:@"GameScore"];
+//    //查找GameScore表里面id为0c6db13c的数据
+//    [bquery getObjectInBackgroundWithId:@"0c6db13c" block:^(BmobObject *object,NSError *error){
+//        //没有返回错误
+//        if (!error) {
+//            //对象存在
+//            if (object) {
+//                BmobObject *obj1 = [BmobObject objectWithoutDatatWithClassName:object.className objectId:object.objectId];
+//                //设置cheatMode为YES
+//                [obj1 setObject:[NSNumber numberWithBool:YES] forKey:@"cheatMode"];
+//                //异步更新数据
+//                [obj1 updateInBackground];
+//            }
+//        }else{
+//            //进行错误处理
+//        }
+//    }];
+
+    
+//    删除一行数据
+//    BmobQuery *bquery = [BmobQuery queryWithClassName:@"GameScore"];
+//    [bquery getObjectInBackgroundWithId:@"0c6db13c" block:^(BmobObject *object, NSError *error){
+//        if (error) {
+//            //进行错误处理
+//        }
+//        else{
+//            if (object) {
+//                //异步删除object
+//                [object deleteInBackground];
+//            }
+//        }
+//    }];
+    
     return YES;
 }
 
