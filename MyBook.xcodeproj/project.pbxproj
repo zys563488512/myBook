@@ -14,6 +14,19 @@
 		049938F81B876F950038FD8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049938F71B876F950038FD8D /* Images.xcassets */; };
 		049938FB1B876F950038FD8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049938F91B876F950038FD8D /* LaunchScreen.xib */; };
 		049939071B876F950038FD8D /* MyBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049939061B876F950038FD8D /* MyBookTests.m */; };
+		049939151B8774710038FD8D /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939131B8774710038FD8D /* BmobSDK.framework */; };
+		049939171B8775250038FD8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939161B8775250038FD8D /* CoreLocation.framework */; };
+		049939191B8775310038FD8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939181B8775310038FD8D /* Security.framework */; };
+		0499391B1B87753B0038FD8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499391A1B87753A0038FD8D /* CoreGraphics.framework */; };
+		0499391D1B8775460038FD8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499391C1B8775460038FD8D /* MobileCoreServices.framework */; };
+		0499391F1B8775560038FD8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499391E1B8775560038FD8D /* CFNetwork.framework */; };
+		049939211B8775690038FD8D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939201B8775690038FD8D /* CoreTelephony.framework */; };
+		049939231B87757D0038FD8D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939221B87757D0038FD8D /* SystemConfiguration.framework */; };
+		049939251B8775930038FD8D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939241B8775930038FD8D /* libz.1.2.5.dylib */; };
+		049939271B8775A70038FD8D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939261B8775A70038FD8D /* libicucore.dylib */; };
+		049939291B8775C10038FD8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 049939281B8775C10038FD8D /* libsqlite3.dylib */; };
+		0499392B1B8775D00038FD8D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499392A1B8775D00038FD8D /* AVFoundation.framework */; };
+		0499392D1B8775DE0038FD8D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0499392C1B8775DE0038FD8D /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,19 @@
 		049939001B876F950038FD8D /* MyBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049939051B876F950038FD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049939061B876F950038FD8D /* MyBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBookTests.m; sourceTree = "<group>"; };
+		049939131B8774710038FD8D /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		049939161B8775250038FD8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		049939181B8775310038FD8D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0499391A1B87753A0038FD8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0499391C1B8775460038FD8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0499391E1B8775560038FD8D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		049939201B8775690038FD8D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		049939221B87757D0038FD8D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		049939241B8775930038FD8D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		049939261B8775A70038FD8D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		049939281B8775C10038FD8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0499392A1B8775D00038FD8D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0499392C1B8775DE0038FD8D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +73,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0499392D1B8775DE0038FD8D /* MediaPlayer.framework in Frameworks */,
+				0499392B1B8775D00038FD8D /* AVFoundation.framework in Frameworks */,
+				049939291B8775C10038FD8D /* libsqlite3.dylib in Frameworks */,
+				049939271B8775A70038FD8D /* libicucore.dylib in Frameworks */,
+				049939251B8775930038FD8D /* libz.1.2.5.dylib in Frameworks */,
+				049939231B87757D0038FD8D /* SystemConfiguration.framework in Frameworks */,
+				049939211B8775690038FD8D /* CoreTelephony.framework in Frameworks */,
+				0499391F1B8775560038FD8D /* CFNetwork.framework in Frameworks */,
+				0499391D1B8775460038FD8D /* MobileCoreServices.framework in Frameworks */,
+				0499391B1B87753B0038FD8D /* CoreGraphics.framework in Frameworks */,
+				049939191B8775310038FD8D /* Security.framework in Frameworks */,
+				049939171B8775250038FD8D /* CoreLocation.framework in Frameworks */,
+				049939151B8774710038FD8D /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,7 @@
 		049938E91B876F950038FD8D /* MyBook */ = {
 			isa = PBXGroup;
 			children = (
+				049939101B8774650038FD8D /* Category */,
 				049938EE1B876F950038FD8D /* AppDelegate.h */,
 				049938EF1B876F950038FD8D /* AppDelegate.m */,
 				049938F11B876F950038FD8D /* ViewController.h */,
@@ -117,6 +157,34 @@
 				049939051B876F950038FD8D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		049939101B8774650038FD8D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0499392C1B8775DE0038FD8D /* MediaPlayer.framework */,
+				0499392A1B8775D00038FD8D /* AVFoundation.framework */,
+				049939281B8775C10038FD8D /* libsqlite3.dylib */,
+				049939261B8775A70038FD8D /* libicucore.dylib */,
+				049939241B8775930038FD8D /* libz.1.2.5.dylib */,
+				049939221B87757D0038FD8D /* SystemConfiguration.framework */,
+				049939201B8775690038FD8D /* CoreTelephony.framework */,
+				0499391E1B8775560038FD8D /* CFNetwork.framework */,
+				0499391C1B8775460038FD8D /* MobileCoreServices.framework */,
+				0499391A1B87753A0038FD8D /* CoreGraphics.framework */,
+				049939181B8775310038FD8D /* Security.framework */,
+				049939161B8775250038FD8D /* CoreLocation.framework */,
+				049939111B8774710038FD8D /* Bmob_SDK_iOS_v1.6.2 */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		049939111B8774710038FD8D /* Bmob_SDK_iOS_v1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				049939131B8774710038FD8D /* BmobSDK.framework */,
+			);
+			path = Bmob_SDK_iOS_v1.6.2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +415,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBook/Category/Bmob_SDK_iOS_v1.6.2",
+				);
 				INFOPLIST_FILE = MyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +429,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBook/Category/Bmob_SDK_iOS_v1.6.2",
+				);
 				INFOPLIST_FILE = MyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +492,7 @@
 				0499390C1B876F950038FD8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0499390D1B876F950038FD8D /* Build configuration list for PBXNativeTarget "MyBookTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +501,7 @@
 				0499390F1B876F950038FD8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
