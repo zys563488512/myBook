@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04666D151B8825A500852804 /* BookListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04666D131B8825A500852804 /* BookListCell.m */; };
+		04666D161B8825A500852804 /* BookListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04666D141B8825A500852804 /* BookListCell.xib */; };
+		04666D1A1B88274E00852804 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 04666D181B88274E00852804 /* book.png */; };
+		04666D1D1B8829E300852804 /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 04666D1C1B8829E300852804 /* cell.png */; };
+		04666D1F1B882EEF00852804 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 04666D1E1B882EEF00852804 /* book.png */; };
 		049938ED1B876F950038FD8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049938EC1B876F950038FD8D /* main.m */; };
 		049938F01B876F950038FD8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049938EF1B876F950038FD8D /* AppDelegate.m */; };
 		049938F31B876F950038FD8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049938F21B876F950038FD8D /* ViewController.m */; };
@@ -49,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04666D121B8825A500852804 /* BookListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BookListCell.h; path = ../../../../../Documents/BookListCell.h; sourceTree = "<group>"; };
+		04666D131B8825A500852804 /* BookListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BookListCell.m; path = ../../../../../Documents/BookListCell.m; sourceTree = "<group>"; };
+		04666D141B8825A500852804 /* BookListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BookListCell.xib; path = ../../../../../Documents/BookListCell.xib; sourceTree = "<group>"; };
+		04666D181B88274E00852804 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		04666D1C1B8829E300852804 /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		04666D1E1B882EEF00852804 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
 		049938E71B876F950038FD8D /* MyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049938EB1B876F950038FD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049938EC1B876F950038FD8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +88,7 @@
 		04BD3F081B877AAD0022F603 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		04BD3F0A1B877F250022F603 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		04E8B0C51B878095005FF698 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		04E8B0C71B8784EE005FF698 /* MyBook-p.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyBook-p.pch"; sourceTree = "<group>"; };
 		235AF3678EB1EE2AA3FBA12F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F1B15959D46C104A68625B2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		82865B35CF283AFB61304F5B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +126,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04666D171B88274E00852804 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				04666D1E1B882EEF00852804 /* book.png */,
+				04666D1C1B8829E300852804 /* cell.png */,
+				04666D181B88274E00852804 /* book.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		049938DE1B876F950038FD8D = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +160,8 @@
 		049938E91B876F950038FD8D /* MyBook */ = {
 			isa = PBXGroup;
 			children = (
+				04666D171B88274E00852804 /* Resource */,
+				04E8B0C81B878903005FF698 /* Classes */,
 				0499392C1B8775DE0038FD8D /* MediaPlayer.framework */,
 				0499392A1B8775D00038FD8D /* AVFoundation.framework */,
 				049939281B8775C10038FD8D /* libsqlite3.dylib */,
@@ -166,6 +190,7 @@
 		049938EA1B876F950038FD8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04E8B0C71B8784EE005FF698 /* MyBook-p.pch */,
 				049938EB1B876F950038FD8D /* Info.plist */,
 				049938EC1B876F950038FD8D /* main.m */,
 			);
@@ -211,6 +236,24 @@
 				04E8B0C51B878095005FF698 /* BmobSDK.framework */,
 			);
 			path = Bmob_SDK_iOS_v1.6.2;
+			sourceTree = "<group>";
+		};
+		04E8B0C81B878903005FF698 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04E8B0CA1B878951005FF698 /* BookListCell */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		04E8B0CA1B878951005FF698 /* BookListCell */ = {
+			isa = PBXGroup;
+			children = (
+				04666D121B8825A500852804 /* BookListCell.h */,
+				04666D131B8825A500852804 /* BookListCell.m */,
+				04666D141B8825A500852804 /* BookListCell.xib */,
+			);
+			path = BookListCell;
 			sourceTree = "<group>";
 		};
 		125AAD06528E9C876C2B7636 /* Pods */ = {
@@ -331,7 +374,11 @@
 			files = (
 				049938F61B876F950038FD8D /* Main.storyboard in Resources */,
 				049938FB1B876F950038FD8D /* LaunchScreen.xib in Resources */,
+				04666D1A1B88274E00852804 /* book.png in Resources */,
+				04666D1D1B8829E300852804 /* cell.png in Resources */,
+				04666D161B8825A500852804 /* BookListCell.xib in Resources */,
 				04BD3F091B877AAD0022F603 /* Podfile in Resources */,
+				04666D1F1B882EEF00852804 /* book.png in Resources */,
 				049938F81B876F950038FD8D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04666D151B8825A500852804 /* BookListCell.m in Sources */,
 				049938F31B876F950038FD8D /* ViewController.m in Sources */,
 				049938F01B876F950038FD8D /* AppDelegate.m in Sources */,
 				049938ED1B876F950038FD8D /* main.m in Sources */,
@@ -516,6 +564,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyBook/Category/Bmob_SDK_iOS_v1.6.2",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyBook/MyBook-p.pch";
 				INFOPLIST_FILE = MyBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -536,6 +587,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyBook/Category/Bmob_SDK_iOS_v1.6.2",
 				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyBook/MyBook-p.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "";
 				INFOPLIST_FILE = MyBook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
